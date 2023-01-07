@@ -1,7 +1,9 @@
+import { View, Text } from "react-native-web"
+
 function GameScreen() {
   return (
     <>
-    
+      
     </>
   )
 }

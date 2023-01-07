@@ -1,6 +1,9 @@
 import { StyleSheet, ImageBackground } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import StartGameScreen from './screens/StartGameScreen'
+import { useState } from 'react'
+import GameScreen from './screens/GameScreen'
+import GameOverScreen from './screens/GameOverScreen'
 
 export default function App() {
   return (
