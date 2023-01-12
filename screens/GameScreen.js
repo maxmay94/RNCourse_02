@@ -33,7 +33,7 @@ function GameScreen({ userNumber, onGameOver }) {
     maxBoundary = 100
   }, [])
 
-  function nextGuessHandler(direction) { // direction => 'lower' , 'greater'
+  function nextGuessHandler(direction) {
     if(
       (direction === 'lower' && currentGuess < userNumber) || 
       (direction === 'greater' && currentGuess > userNumber)
@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 24,
+    alignItems: 'center'
   },
   instructionText: {
     margin: 12,
